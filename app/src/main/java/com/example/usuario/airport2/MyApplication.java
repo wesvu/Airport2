@@ -227,7 +227,7 @@ public class MyApplication extends Application {
                         acumulado_array[0] = 0.0;
                         acumulado_array[1] = 0.0;
                         acumulado_array[2] = 0.0;
-                        acumulado_array[3] = 0.0;
+                        acumulado_array[3] = 1.0;
                         if (beacons.size() == 3) {
                             mensaje = trilateracion_3_puntos(distance_array[0], distance_array[1], distance_array[2]);
                         }
